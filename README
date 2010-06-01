@@ -6,13 +6,13 @@ VERSION
     Version 0.01
 
 SYNOPSIS
-      package MyApp::Schema
+      package MyApp::Schema::Result::Artist;
 
       use Moose;
-      use MooseX::NonMoose;
+      use MooseX::DBIC::AddColumn;
       use namespace::autoclean;
 
-      extends 'DBIx::Class';
+      extends 'DBIx::Class::Core';
 
       has id => (
         isa => 'Int',
@@ -42,7 +42,7 @@ SYNOPSIS
         is  => 'rw',
       );
 
-      __PACKAGE__->meta->make_immutable;
+      __PACKAGE__->meta->make_immutable(inline_constructor => 0);
 
       1;
 
