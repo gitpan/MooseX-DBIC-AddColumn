@@ -67,7 +67,7 @@ SEE ALSO
     DBIx::Class, Moose
 
 AUTHOR
-    Norbert Buchmüller, "<norbi at nix.hu>"
+    Norbert Buchmuller, "<norbi at nix.hu>"
 
 BUGS
     Please report any bugs or feature requests to "bug-moosex-dbic-addcolumn
@@ -100,7 +100,7 @@ SUPPORT
         <http://search.cpan.org/dist/MooseX-DBIC-AddColumn/>
 
 COPYRIGHT & LICENSE
-    Copyright 2010 Norbert Buchmüller, all rights reserved.
+    Copyright 2010 Norbert Buchmuller, all rights reserved.
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.

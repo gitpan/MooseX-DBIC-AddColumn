@@ -1,7 +1,7 @@
 ---
 abstract: 'Lets you write DBIC add_column() definitions as attribute options'
 author:
-  - 'Norbert Buchmüller, C<< <norbi at nix.hu> >>'
+  - 'Norbert Buchmuller, C<< <norbi at nix.hu> >>'
 build_requires:
   ExtUtils::MakeMaker: 6.42
   FindBin: 0
@@ -30,4 +30,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/mendel/MooseX-DBIC-AddColumn.git
-version: 0.01
+version: 0.02
