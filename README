@@ -1,9 +1,11 @@
 NAME
     MooseX::DBIC::AddColumn - Lets you write DBIC add_column() definitions
-    as attribute options
+    as attribute options (DEPRECATED)
+
+    THIS MODULE IS BEING DEPRECATED IN FAVOUR OF DBIx::Class::MooseColumns.
 
 VERSION
-    Version 0.01
+    Version 0.05
 
 SYNOPSIS
       package MyApp::Schema::Result::Artist;
@@ -49,10 +51,8 @@ SYNOPSIS
 DISCLAIMER
     This is ALPHA SOFTWARE. Use at your own risk. Features may change.
 
-    Needless to say I'm not going to steal the namespace from the upcoming
-    MooseX::DBIC module - I'm happy to rename this module to anything that
-    fits (just it happened that this was the first module name that came to
-    my mind;-).
+    This module is being deprecated in favour of DBIx::Class::MooseColumns.
+    Please don't use it.
 
 DESCRIPTION
     This module allows you to put the arguments to "add_column" in
